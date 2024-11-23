@@ -1,0 +1,406 @@
+body {
+  margin: 0;
+}
+.container {
+  background-image: url(../images/drew-coffman-1872.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 115px;
+}
+/*Navbar*/
+.container .header {
+  width: 85%;
+  margin: auto;
+}
+.container .header .logoImg,
+.container .header .headerAnchors {
+  display: inline-block;
+  width: 49%;
+}
+.container .header .logoImg a {
+  display: inline-block;
+  margin: 30px;
+  vertical-align: middle;
+}
+.container .header .logoImg a img {
+  width: 200px;
+  vertical-align: middle;
+}
+.container .header .headerAnchors a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  margin: 0px 15px;
+  vertical-align: middle;
+  font-size: 19px;
+}
+.container .header .headerAnchors .wheat {
+  color: wheat;
+}
+/*Fold area*/
+.container .content {
+  color: white;
+  text-align: center;
+  margin: 100px auto 0;
+  padding: 15px 0;
+}
+.container .content .beforeHeadline,
+.container .content .description {
+  font-size: 25px;
+}
+.container .content .description {
+  width: 50%;
+  margin: 20px auto;
+  line-height: 1.8;
+}
+.container .content h1 {
+  font-size: 60px;
+}
+.container .content div button {
+  height: 50px;
+  width: 130px;
+  margin: 10px;
+  color: white;
+  font-size: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+  word-spacing: 0px;
+}
+.container .content div .learnMore {
+  background-color: rgb(131, 92, 48);
+  border: none;
+}
+.container .content div .contactUs {
+  background-color: transparent;
+  border: solid 3px white;
+}
+/*Who we are section*/
+.secOne {
+  width: 80%;
+  margin: 100px auto;
+}
+.secOne .secOneImage,
+.secOne .seconeContent {
+  display: inline-block;
+  width: 49%;
+  vertical-align: middle;
+}
+.secOne .secOneImage img {
+  width: 95%;
+}
+.secOne .seconeContent {
+  margin-left: 10px;
+}
+.secOne .seconeContent h2 {
+  font-weight: 100;
+  font-size: 30px;
+  color: rgb(70, 68, 68);
+}
+.secOne .seconeContent h2,
+.secOne .seconeContent p {
+  width: 90%;
+  padding: 0 0 0 20px;
+}
+.secOne .seconeContent .whoWeAreP,
+.secOne .seconeContent p .pOne,
+.secOne .seconeContent p .pTwo,
+.secOne .seconeContent p .pThree,
+.secOne .seconeContent p .pFour {
+  color: rgb(70, 68, 68);
+  display: inline-block;
+  vertical-align: middle;
+}
+.secOne .seconeContent .pWithImg1 .imgOne,
+.secOne .seconeContent .pWithImg2 .imgTwo,
+.secOne .seconeContent .pWithImg3 .imgThree,
+.secOne .seconeContent .pWithImg4 .imgFour {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-image: url(../images/Icons/leaf.png);
+  background-size: cover;
+  border: solid 1px rgb(171, 168, 168);
+  vertical-align: middle;
+  margin-right: 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.secOne .seconeContent .pWithImg2 .imgTwo {
+  background-image: url(../images/Icons/people.png);
+}
+.secOne .seconeContent .pWithImg3 .imgThree {
+  background-image: url(../images/Icons/heart.png);
+}
+.secOne .seconeContent .pWithImg4 .imgFour {
+  background-image: url(../images/Icons/check.png);
+}
+/*Location section*/
+.secTwo {
+  background-color: #f8f8f8;
+  padding: 50px 0;
+}
+.secTwo .toMiddleSecTwo {
+  width: 85%;
+  margin: 50px auto;
+}
+.secTwo .toMiddleSecTwo .secTwoContent,
+.secTwo .toMiddleSecTwo .secTwoImg {
+  display: inline-block;
+  vertical-align: middle;
+  width: 49%;
+}
+.secTwo .toMiddleSecTwo .secTwoContent h2 {
+  font-weight: 100;
+  font-size: 30px;
+  color: rgb(70, 68, 68);
+}
+.secTwo .toMiddleSecTwo .secTwoContent p {
+  color: rgb(116, 113, 113);
+  width: 85%;
+  line-height: 2;
+}
+.secTwo .toMiddleSecTwo .secTwoImg img {
+  width: 90%;
+}
+/*Baking section*/
+.secThree {
+  width: 90%;
+  margin: 80px auto;
+  text-align: center;
+}
+.secThree h2 {
+  font-weight: 100;
+  font-size: 30px;
+  color: rgb(70, 68, 68);
+}
+.secThree .underTitle {
+  color: rgb(116, 113, 113);
+  margin: 50px 0;
+}
+.secThree .superiorBreads,
+.secThree .bagels,
+.secThree .cookies {
+  float: left;
+  width: 33.3%;
+}
+.secThree .clr {
+  clear: both;
+}
+.secThree div img {
+  width: 90%;
+}
+.secThree div h3 {
+  font-weight: 100;
+  color: rgb(70, 68, 68);
+  font-size: 25px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.secThree div p {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  color: rgb(116, 113, 113);
+  line-height: 2;
+}
+/*Contact information section*/
+.iframeSec {
+  background-color: #f8f8f8;
+  padding: 90px 0;
+}
+.iframeSec .toMiddleIframeSec {
+  width: 88%;
+  margin: auto;
+}
+.iframeSec .toMiddleIframeSec .iframeSecContent,
+.iframeSec .toMiddleIframeSec .iframeSecLocation {
+  width: 50%;
+  float: left;
+}
+.iframeSec .toMiddleIframeSec .clr {
+  clear: both;
+}
+.iframeSec .toMiddleIframeSec .iframeSecContent h2 {
+  font-weight: 100;
+  font-size: 30px;
+  color: rgb(70, 68, 68);
+}
+.iframeSec .toMiddleIframeSec .iframeSecContent p {
+  color: rgb(116, 113, 113);
+  margin: 25px 0;
+}
+.iframeSec .toMiddleIframeSec .iframeSecContent .descriptionForLocation,
+.iframeSec .toMiddleIframeSec .iframeSecContent .detailsHead {
+  width: 80%;
+  line-height: 2;
+}
+.iframeSec .toMiddleIframeSec .iframeSecContent .streat,
+.iframeSec .toMiddleIframeSec .iframeSecContent .phone1,
+.iframeSec .toMiddleIframeSec .iframeSecContent .phone2,
+.iframeSec .toMiddleIframeSec .iframeSecContent .email {
+  margin: 7px 0;
+}
+.iframeSec .toMiddleIframeSec .iframeSecContent .streat .img1,
+.iframeSec .toMiddleIframeSec .iframeSecContent .phone1 .img2,
+.iframeSec .toMiddleIframeSec .iframeSecContent .phone2 .img3,
+.iframeSec .toMiddleIframeSec .iframeSecContent .email .img4 {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-size: cover;
+  border: solid 1px rgb(171, 168, 168);
+  vertical-align: middle;
+  margin-right: 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-image: url(../images/Icons/map.png);
+  background-color: rgb(131, 92, 48);
+}
+.iframeSec .toMiddleIframeSec .iframeSecContent .phone1 .img2 {
+  background-image: url(../images/Icons/phone.png);
+}
+.iframeSec .toMiddleIframeSec .iframeSecContent .phone2 .img3 {
+  background-image: url(../images/Icons/headphone.png);
+}
+.iframeSec .toMiddleIframeSec .iframeSecContent .email .img4 {
+  background-image: url(../images/Icons/email.png);
+}
+.iframeSec .toMiddleIframeSec .iframeSecLocation iframe {
+  width: 90%;
+  height: 75%;
+}
+/*Footer section 1*/
+.footer1 {
+  background-color: #3f3c38;
+}
+.footer1 .toMiddleFooter {
+  width: 80%;
+  margin: auto;
+  padding: 60px 0px 40px 0px;
+}
+.footer1 .toMiddleFooter .sec1,
+.footer1 .toMiddleFooter .sec2,
+.footer1 .toMiddleFooter .sec3,
+.footer1 .toMiddleFooter .sec4 {
+  float: left;
+  width: 25%;
+}
+.footer1 .toMiddleFooter .clr {
+  clear: both;
+}
+
+.footer1 .toMiddleFooter div h4 {
+  color: white;
+  font-weight: 100;
+  font-size: 18px;
+  margin: 30px 0;
+}
+.footer1 .toMiddleFooter div p {
+  color: #969696;
+  width: 95%;
+  padding: 10px 0;
+}
+.footer1 .toMiddleFooter .sec1 p {
+  line-height: 1.9;
+  margin: 0;
+}
+.footer1 .toMiddleFooter .sec2 p,
+.footer1 .toMiddleFooter .sec3 p,
+.footer1 .toMiddleFooter .sec4 p {
+  border-bottom: solid 0.1px #96969642;
+  width: 90%;
+}
+
+.footer1 .toMiddleFooter div .borderNone {
+  border: none;
+}
+
+.footer1 .toMiddleFooter div p .img {
+  display: inline-block;
+  background-image: url(../images/Icons/arrow.png);
+  width: 15px;
+  height: 15px;
+  background-size: cover;
+  vertical-align: middle;
+}
+.footer1 .toMiddleFooter .sec4 p .img1,
+.footer1 .toMiddleFooter .sec4 p .img2,
+.footer1 .toMiddleFooter .sec4 p .img3,
+.footer1 .toMiddleFooter .sec4 p .img4 {
+  display: inline-block;
+  background-size: cover;
+  vertical-align: middle;
+  width: 30px;
+  height: 30px;
+}
+.footer1 .toMiddleFooter .sec4 p .img1 {
+  background-image: url(../images/Icons/location.png);
+}
+.footer1 .toMiddleFooter .sec4 p .img2 {
+  background-image: url(../images/Icons/phone-gray.png);
+}
+.footer1 .toMiddleFooter .sec4 p .img3 {
+  background-image: url(../images/Icons/email-solid.png);
+}
+.footer1 .toMiddleFooter .sec4 p .img4 {
+  background-image: url(../images/Icons/earth.png);
+}
+
+.footer1 .toMiddleFooter div p .text {
+  display: inline-block;
+  vertical-align: middle;
+  width: 80%;
+}
+.footer1 .toMiddleFooter .sec2 p .text,
+.footer1 .toMiddleFooter .sec3 p .text {
+  white-space: nowrap;
+}
+/* Footer section 2 */
+.footer2 {
+  background-color: #353330;
+  padding-bottom: 30px;
+}
+.footer2 .logo {
+  width: fit-content;
+  margin: auto;
+  padding: 60px 0 40px;
+}
+
+.footer2 p {
+  text-align: center;
+  color: #969696;
+  font-size: 15px;
+  padding: 10px 0 40px;
+  margin: 0;
+}
+.footer2 .links {
+  width: fit-content;
+  margin: auto;
+}
+.footer2 .links a {
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.footer2 .links a span {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #3f3c38;
+  background-image: url(../images/Icons/facebook.png);
+  background-size: cover;
+}
+
+.footer2 .links a .gmail {
+  background-image: url(../images/Icons/google.png);
+}
+.footer2 .links a .linkedin {
+  background-image: url(../images/Icons/linkedin.png);
+}
+.footer2 .links a .twitter {
+  background-image: url(../images/Icons/twitter.png);
+}
